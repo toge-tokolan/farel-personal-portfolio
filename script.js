@@ -131,13 +131,18 @@ document.addEventListener("DOMContentLoaded", () => {
     const navLinks = document.querySelector(".nav-links");
     
     hamburger.addEventListener("click", () => {
-        navLinks.classList.toggle("active");
+        const isExpanded = hamburger.getAttribute("aria-expanded") === "true";
+        hamburger.setAttribute("aria-expanded", String(!isExpanded));
+        hamburger.setAttribute("aria-label", isExpanded ? "Open navigation" : "Close navigation");
+        navLinks.classList.toggle("active", !isExpanded);
     });
 
     // Close mobile menu on link click
     document.querySelectorAll(".nav-links a").forEach(link => {
         link.addEventListener("click", () => {
             navLinks.classList.remove("active");
+            hamburger.setAttribute("aria-expanded", "false");
+            hamburger.setAttribute("aria-label", "Open navigation");
         });
     });
 
