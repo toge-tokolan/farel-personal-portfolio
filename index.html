@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Farel Aufa Ramadhani — Graphic Designer · Front-End Web Developer · Cover Song Creator</title>
+    <meta name="description" content="Personal portfolio of Farel Aufa Ramadhani, showcasing graphic design, front-end web projects, and cover song & guitar content.">
+    
+    <!-- Typography: Plus Jakarta Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo">AUFA'S Portfolio</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#what-i-do">Skills</a></li>
+                <li><a href="#works">Works</a></li>
+                <li><a href="#creator">Creator</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <a href="#contact" class="btn-cta">Let's Talk</a>
+            <div class="hamburger">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero">
+        <div class="hero-content reveal">
+            <p class="greeting">HELLO, I'M FAREL.</p>
+            <h1 class="hero-title">
+                <span>I DESIGN.</span>
+                <span>I BUILD.</span>
+                <span>I PLAY.</span>
+            </h1>
+            <h2 class="hero-subtitle">Graphic Designer · Front-End Web Developer · Cover Song Creator</h2>
+            <p class="hero-support">Turning ideas into visuals, websites, and cover songs with creative contents.</p>
+            
+            <div class="hero-actions">
+                <a href="#works" class="btn-primary">View My Works</a>
+                <a href="#contact" class="btn-secondary">Let's Connect</a>
+            </div>
+            <p class="hero-location">Based in Indonesia</p>
+        </div>
+        <!-- Hero Visual Abstract Representation -->
+        <div class="hero-visual reveal fade-up">
+            <div class="visual-box box-design">🎨 <br>Design</div>
+            <div class="visual-box box-web">💻 <br>Web</div>
+            <div class="visual-box box-music">🎸 <br>Music</div>
+        </div>
+    </header>
+
+    <!-- About Me -->
+    <section id="about" class="section-padding dark-section">
+        <div class="container reveal fade-up">
+            <h3 class="section-title">A LITTLE ABOUT ME</h3>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>I'm Farel, a creative student exploring the intersection of design, web, and music. I enjoy turning ideas into visual experiences, building interfaces for the web, and creating cover song and guitar content.</p>
+                    <br>
+                    <p>For me, creativity isn't limited to one medium. Sometimes it becomes a visual, sometimes a website, and sometimes a song cover.</p>
+                    
+                    <div class="about-highlights">
+                        <div class="highlight"><strong>4</strong> Featured Projects</div>
+                        <div class="highlight"><strong>3</strong> Creative Fields</div>
+                        <div class="highlight"><strong>2026</strong> Portfolio</div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img class="placeholder-image profile-image" src="assets/profile.jpeg" alt="Foto profil Farel" loading="lazy">
+                    <ul class="about-roles">
+                        <li>Graphic Designer</li>
+                        <li>Front-End Web Developer</li>
+                        <li>Cover Song Creator</li>
+                        <li>Creative Student</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- What I Do -->
+    <section id="what-i-do" class="section-padding">
+        <div class="container reveal fade-up">
+            <h3 class="section-title">WHAT I DO</h3>
+            <p class="section-subtitle">Three things I enjoy creating.</p>
+            
+            <div class="services-grid">
+                <!-- Card 1 -->
+                <div class="service-card">
+                    <div class="card-number">01</div>
+                    <h4>Graphic Design</h4>
+                    <p>Creating visual identities, digital graphics, promotional materials, and creative visual content.</p>
+                    <div class="card-meta"><strong>Tools:</strong> Canva · Figma · CorelDRAW</div>
+                    <ul class="card-focus">
+                        <li>Social Media Design</li>
+                        <li>Poster Design</li>
+                        <li>Promotional Design</li>
+                        <li>Branding</li>
+                        <li>Visual Content</li>
+                        <li>Layout Design</li>
+                    </ul>
+                </div>
+                <!-- Card 2 -->
+                <div class="service-card">
+                    <div class="card-number">02</div>
+                    <h4>Front-End Web</h4>
+                    <p>Building responsive websites with a strong focus on visual design, interaction, and user experience.</p>
+                    <div class="card-meta"><strong>Technologies:</strong> HTML · CSS · JavaScript</div>
+                    <ul class="card-focus">
+                        <li>Responsive Design</li>
+                        <li>UI Implementation</li>
+                        <li>Front-End Development</li>
+                        <li>Interaction</li>
+                        <li>Animation</li>
+                        <li>Layout</li>
+                    </ul>
+                </div>
+                <!-- Card 3 -->
+                <div class="service-card">
+                    <div class="card-number">03</div>
+                    <h4>Cover Song & Guitar</h4>
+                    <p>Creating short-form cover song and guitar content, mainly for TikTok.</p>
+                    <div class="card-meta"><strong>Focus:</strong></div>
+                    <ul class="card-focus">
+                        <li>Song Covers</li>
+                        <li>Guitar</li>
+                        <li>Music Content</li>
+                        <li>Short-form Video</li>
+                        <li>Creative Presentation</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Selected Works (Injected via JS) -->
+    <section id="works" class="section-padding dark-section">
+        <div class="container reveal fade-up">
+            <h3 class="section-title">SELECTED WORKS</h3>
+            <p class="section-subtitle">A selection of things I've created.</p>
+            <div id="projects-container" class="works-grid editorial-layout">
+                <!-- Projects will be generated by script.js here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Creative Process -->
+    <section id="process" class="section-padding">
+        <div class="container reveal fade-up">
+            <h3 class="section-title">HOW I CREATE</h3>
+            <p class="section-subtitle">From idea to final result.</p>
+            
+            <div class="timeline">
+                <div class="timeline-step">
+                    <div class="step-num">01 — DISCOVER</div>
+                    <p>Understanding the idea, purpose, and audience.</p>
+                </div>
+                <div class="timeline-step">
+                    <div class="step-num">02 — EXPLORE</div>
+                    <p>Finding references, concepts, visual direction, and possibilities.</p>
+                </div>
+                <div class="timeline-step">
+                    <div class="step-num">03 — BUILD</div>
+                    <p>Creating the design, website, or content.</p>
+                </div>
+                <div class="timeline-step">
+                    <div class="step-num">04 — REFINE</div>
+                    <p>Improving details, consistency, usability, and presentation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creator Corner -->
+    <section id="creator" class="section-padding dark-section">
+        <div class="container reveal fade-up">
+            <h3 class="section-title">CREATOR CORNER</h3>
+            <p class="section-subtitle">A different side of my creativity.</p>
+            <p class="creator-desc">Outside of design and web, I also create short-form cover song and guitar content on TikTok.</p>
+            
+            <div class="tiktok-grid">
+                <img class="tiktok-card placeholder-image" src="assets/tiktok-01.jpg" alt="Preview konten TikTok 1" loading="lazy">
+                <img class="tiktok-card placeholder-image" src="assets/tiktok-02.jpg" alt="Preview konten TikTok 2" loading="lazy">
+                <img class="tiktok-card placeholder-image" src="assets/tiktok-03.jpg" alt="Preview konten TikTok 3" loading="lazy">
+            </div>
+
+            <div class="cta-massive">
+                <h4>WATCH MY COVER SONGS</h4>
+                <p>See my cover song and guitar content on TikTok.</p>
+                <a href="#" id="link-tiktok-cta" target="_blank" class="btn-primary">Visit My TikTok →</a>
+                <p class="cta-small">Cover Song · Guitar · Short-form Content</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Beyond the Screen -->
+    <section id="gallery" class="section-padding">
+        <div class="container reveal fade-up">
+            <h3 class="section-title">BEYOND THE SCREEN</h3>
+            <p class="section-subtitle">A glimpse into the things I enjoy.</p>
+            
+            <div class="masonry-gallery">
+                <img class="gallery-item placeholder-image" src="assets/gallery-01.jpg" alt="Galeri foto 1" loading="lazy">
+                <img class="gallery-item placeholder-image" src="assets/gallery-02.jpg" alt="Galeri foto 2" loading="lazy">
+                <img class="gallery-item placeholder-image" src="assets/gallery-03.jpg" alt="Galeri foto 3" loading="lazy">
+                <img class="gallery-item placeholder-image" src="assets/gallery-04.jpg" alt="Galeri foto 4" loading="lazy">
+                <img class="gallery-item placeholder-image" src="assets/gallery-05.jpg" alt="Galeri foto 5" loading="lazy">
+                <img class="gallery-item placeholder-image" src="assets/gallery-06.jpg" alt="Galeri foto 6" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <!-- Creative Journey -->
+    <section id="journey" class="section-padding dark-section">
+        <div class="container reveal fade-up">
+            <h3 class="section-title">MY CREATIVE JOURNEY</h3>
+            <div class="journey-timeline">
+                <div class="j-item">
+                    <h5>2023</h5>
+                    <strong>Started Exploring Design</strong>
+                    <p>Started exploring digital design and creative tools in My Middle School.</p>
+                </div>
+                <div class="j-item">
+                    <h5>2024</h5>
+                    <strong>Started Learning Web Development</strong>
+                    <p>Started experimenting with websites, UI, and front-end development in High  School.</p>
+                </div>
+                <div class="j-item">
+                    <h5>2025</h5>
+                    <strong>More Projects, More Experiments</strong>
+                    <p>Created school projects and explored different creative directions in My High School.</p>
+                </div>
+                <div class="j-item">
+                    <h5>2026</h5>
+                    <strong>Building My Creative Identity</strong>
+                    <p>Developing skills across graphic design, front-end web development, and cover song content when I was on job training.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section-padding">
+        <div class="container text-center reveal fade-up">
+            <h1 class="contact-title">LET'S CREATE SOMETHING.</h1>
+            <p class="contact-subtitle">Have a project, collaboration, or just want to say hello?</p>
+            
+            <div class="social-links" id="social-container">
+                <!-- Injected via JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <h2>AUFA's Portfolio</h2>
+                <p>Graphic Designer · Front-End Web Developer · Cover Song Creator</p>
+            </div>
+            <div class="footer-links" id="footer-social-container">
+                <!-- Injected via JS -->
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 Farel Aufa Ramadhani. All rights reserved.</p>
+            <p>Designed & built by Farel.</p>
+        </div>
+    </footer>
+
+    <!-- Project Modal -->
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div id="modal-body">
+                <!-- Injected via JS -->
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
