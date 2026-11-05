@@ -22,7 +22,7 @@ const CONFIG = {
             role: "Front-End Developer, UI/UX Designer",
             process: "First we discovered the problem, then explored visual directions. Built the interface using modern tech stack, and refined the animations.",
             image: "assets/project-01.png",
-            detailImages: ["assets/project-01-detail-1.jpg", "assets/project-01-detail-2.jpg"]
+            detailImages: ["assets/project-01-detail-1.jpg.png", "assets/project-01-detail-2.jpg"]
         },
         {
             id: "02",
